@@ -4,8 +4,21 @@ This project was developed to manage adding, editing and deleting students.
 
 # Technologies & dependencies used this project
 
+### `React`
+
+### `Typescript`
+
+### `Jest`
+
+### `Enzyme`
+
+### `Formik`
+
+### `Yup`
+
 we have used React with Typescript to improve the code quality and prevent spelling errors.
-also we have used TDD to make the process of updating the project more easier.
+
+also we have used Jest and Enzyme TDD Libraries to make the process of updating the project more easier.
 
 we decided to use yup and formik to handle the addStudent form and manage user errors to make sure that all the data is as expected.
 
