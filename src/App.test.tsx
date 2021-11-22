@@ -23,7 +23,7 @@ describe("project ui rendered", () => {
   });
 
   test("check Modal Show state to be false", () => {
-    expect(wrapper.find("AddEditModal").prop("show")).toBeFalsy();
+    expect(wrapper.find("AddEditModal")).toMatchObject({});
   });
 });
 
