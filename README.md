@@ -24,10 +24,10 @@ we decided to use yup and formik to handle the addStudent form and manage user e
 
 # Project Coding Details
 
-you'll find the main file call app.tsx in the src folder, this contains the students table and manage the app state.
-we have interface.ts file that contains Student interface.
-we also created a AddEditModal component, it has form Modal and has the formik and yup code.
-all the tests are in the app.test.tsx file there's 11 tests that checks rendering the main ui components and check for the form input functionality.
+you'll find the main file call `app.tsx` in the src folder, this contains the students table and manage the app state.
+we have `interface.ts` file that contains Student interface.
+we also created a `AddEditModal.tsx` component, it has form Modal and has the `formik` and `yup` code.
+all the tests are in the `app.test.tsx` file there's 11 tests that checks rendering the main ui components and check for the form input functionality.
 
 ## Available Scripts
 
