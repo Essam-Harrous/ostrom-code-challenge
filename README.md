@@ -1,6 +1,20 @@
-# Getting Started with Create React App
+# Ostrom code challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed to manage adding, editing and deleting students.
+
+# Technologies & dependencies used this project
+
+we have used React with Typescript to improve the code quality and prevent spelling errors.
+also we have used TDD to make the process of updating the project more easier.
+
+we decided to use yup and formik to handle the addStudent form and manage user errors to make sure that all the data is as expected.
+
+# Project Coding Details
+
+you'll find the main file call app.tsx in the src folder, this contains the students table and manage the app state.
+we have interface.ts file that contains Student interface.
+we also created a AddEditModal component, it has form Modal and has the formik and yup code.
+all the tests are in the app.test.tsx file there's 11 tests that checks rendering the main ui components and check for the form input functionality.
 
 ## Available Scripts
 
@@ -29,18 +43,4 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
